@@ -9,9 +9,7 @@ group :development do |variable|
 	end
 
 
-group :production do 
-	gem 'pg'
-end
+#group :production do gem 'pg' end
 
 gem 'sqlite3'
 
