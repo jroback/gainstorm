@@ -1,12 +1,9 @@
-<h1>Listing posts</h1>
+<h1>All Cards</h1>
 
-<table class="table">
+<table id="all-cards-table" class="table">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Directions</th>
-      <th>Content</th>
-      <th colspan="3"></th>
+      <th id="card-title">Card Title</th>
     </tr>
   </thead>
 
@@ -14,11 +11,9 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.title %></td>
-        <td><%= truncate(post.directions, length:30) %></td>
-        <td><%= truncate(post.content, length:100) %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure you want to delete this card?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +21,4 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'Add Card', new_post_path %>

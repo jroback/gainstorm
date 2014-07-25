@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+
+#subhead-a{
+	font-size: 12px;
+}
+
+#small-link{
+	font-size: 12px;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+		#small-link-hide{
+			display: none;
+		}
+
+#card-home{
+	font-size: 88px;
+}
+
+
+#all-cards-table{
+	margin-top: 35px;
+	margin-left: 0px;
+}
+
+#card-title{
+	border-bottom: none;
+}
