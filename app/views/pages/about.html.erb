@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<div class="container">
 
-
-
-<div class="page-header">
-
-<ul class="nav nav-tabs pull-right">
-	<li class="active"><a href="about.html.erb">Home</a></li>
-	<li><a href="about">About</a></li>
-</ul>
-
-	<h1><a href="about">crumblr</a>
-	<small>
-		&nbsp // home baked goodness
-	</small>
-	</h1>
-</div>
-
-
-<div class="row">
-<div class="col-md-6 col-md-offset-3">
-	
-
-<h1>Welcome</h1>
-<p>This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...This is the landing page for a mock recipe site...</p>
-
-</div>
-	</div>
-</div>
-</body>
-</html>
-
+<h1>
+<%= Post.order("RANDOM()").first %>
+</h1>
