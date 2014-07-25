@@ -42,3 +42,18 @@
 #card-title{
 	border-bottom: none;
 }
+
+#add-card-table{
+	float: right;
+	text-align: left;
+	border-bottom: none;
+}
+
+#create-card-header{
+	font-size: 14px;
+}
+
+
+
+
+
