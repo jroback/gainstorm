@@ -55,5 +55,13 @@
 
 
 
+/* ===================== @ Media Mobile ====================== */
+
+
+@media screen and (max-width: 520px) {
+  #card-home{
+    font-size: 55px;
+}
+
 
 
