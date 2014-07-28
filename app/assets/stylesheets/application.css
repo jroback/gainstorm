@@ -53,7 +53,9 @@
 	font-size: 14px;
 }
 
-
+.project-label{
+	margin-top: -12px;
+}
 
 /* ===================== @ Media Mobile ====================== */
 
