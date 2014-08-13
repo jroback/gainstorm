@@ -1,2 +1,16 @@
-<h1>Pages#story</h1>
-<p>Find me in app/views/pages/story.html.erb</p>
+<h1 id="card-home">
+<%= Post.order("RANDOM()").first.title %>
+</h1>
+
+<h1 class="project-label" id="card-home"> <!=Just the "And" =>
+&amp;
+</h1>
+
+
+<h1 class="project-label" id="card-home"> <!=The second random word =>
+<%= Post.order("RANDOM()").last.title %>
+</h1>
+
+
+<a href="javascript:document.location.reload();"
+>Next Card</a>
